@@ -1,0 +1,83 @@
+{
+  "intents": [
+    {
+      "tag": "greetings",
+      "patterns": [
+        "hello",
+        "hey",
+        "hi",
+        "good day",
+        "greetings",
+        "what's up",
+        "how is it going?"
+      ],
+      "responses": ["Hello", "Hey!", "What can I do for you?"]
+    },
+
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you", "cya", "good bye", "talk to you later"],
+      "responses": ["It was nice talking to you, have a good day!"]
+    },
+
+    {
+      "tag": "name",
+      "patterns": [
+        "what is mira",
+        "who are you",
+        "what do you do",
+        "what services do you offer",
+        "who is this",
+        "how did you get my number",
+        "can you help me"
+      ],
+      "responses": ["We are MIRA Money, a wealth-tech platform"]
+    },
+
+    {
+      "tag": "hours",
+      "patterns": [
+        "when do you work",
+        "when do you close",
+        "what are your working hours",
+        "do you work on saturdays"
+      ],
+      "responses": ["We work from Monday to Friday from 9am to 5pm"]
+    },
+
+    {
+      "tag": "returns",
+      "patterns": [
+        "how do you generate returns",
+        "how is your performance",
+        "historically how have you done",
+        "how much returns will i get",
+        "What is your investment philosophy?",
+        "How will you generate more returns?",
+        "returns"
+      ],
+      "responses": [
+        "We use our RAPID strategy to generate 3-5 % on top of the market returns. The core philosophies of MIRA Money are\nAllocation drives higher returns than timing and fund choice.\nReduce Portfolio Risks to generate higher returns. Actively manage funds to buy, hold and sell when necessary.\nInvest in assets that are easy to understand, invest & redeem."
+      ]
+    },
+
+    {
+      "tag": "funds",
+      "patterns": [
+        "funds",
+        "Where do you invest my money",
+        "what are your charges",
+        "why regular plans",
+        "why not direct plans",
+        "what assets do you invest in",
+        "where does mira invest my money",
+        "What are your charges, how do you make money?",
+        "why should I invest with mira",
+        "how much will you charge"
+      ],
+      "responses": [
+        "We invest only in Index Funds across all asset classes like Equity, Debt or Commodities. We believe the right way to generate better returns is by allocating investments in the right assets. To avoid fund manager bias & underperformance we invest only in index funds. We believe our investment framework RAPID will help generate better returns on index funds. \nAs we are Regd as Fund Distribution Platform we can offer only regular plans. Hence we do not charge the investors."
+      ]
+    }
+  ]
+}
